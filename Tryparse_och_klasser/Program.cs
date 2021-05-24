@@ -64,6 +64,11 @@ namespace Tryparse_och_klasser
             ok.Add("name", 3);
             Console.WriteLine(ok["name"]);
             Console.ReadLine();
+
+            //kort förklaring av de generiska klasserna
+            //Lista: Det är som en array med ett obestämdt antal platser, man kan lägga till och ta bort.
+            //Stack: Ungefär som en lista där man endast lägga till saker i toppen och ta bort saker i toppen, fungerar ungefär som en hög/kortlek
+            //Dictionary: Fungerar som en lista där man istället för att använda en int som index, kan man använda andra datatyper.
         }
     }
 }
